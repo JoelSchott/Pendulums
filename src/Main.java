@@ -16,7 +16,7 @@ public class Main {
         Pendulum[] pens = new Pendulum[pen_number];
         double length = 1.8;
         for (int i = 0; i < pen_number; i++){
-            System.out.println("Length is" + String.valueOf(length));
+
             pens[i] = new Pendulum(length, colors[i % colors.length]);
             double gl = 10/length;
             double y = Math.PI/12;
